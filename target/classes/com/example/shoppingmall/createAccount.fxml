@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shoppingmall.CreateAccount">
+
+
+<children>
+<Pane layoutY="-5.0" prefHeight="523.0" prefWidth="361.0" style="-fx-background-color: #2B3E62;">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@158223-photos-mall-shopping-store-free-clipart-hq.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="40.0" layoutY="323.0" prefHeight="52.0" prefWidth="306.0" text="SHOPPING MALL MANAGEMENT SYSTEM" textFill="WHITE">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>
+<Label layoutX="431.0" layoutY="49.0" prefHeight="43.0" prefWidth="100.0" text="LOGIN">
+    <font>
+        <Font size="32.0" />
+    </font>
+</Label>
+<Label layoutX="396.0" layoutY="158.0" prefHeight="28.0" prefWidth="115.0" text="ENTER USERNAME:" />
+<TextField fx:id="usernameCr" layoutX="394.0" layoutY="186.0" onAction="#setUsername" promptText="USERNAME" />
+<Label layoutX="390.0" layoutY="285.0" prefHeight="28.0" prefWidth="127.0" text="RE-ENTER PASSWORD:" />
+<PasswordField fx:id="confirmpasswordCr" layoutX="396.0" layoutY="321.0" onAction="#confirmPassword" promptText="PASSWORD" />
+<Button fx:id="SUBMIT" layoutX="531.0" layoutY="357.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #1F2665;" text="SUBMIT" textFill="WHITE" />
+<Label fx:id="Incorrect_Password" layoutX="396.0" layoutY="304.0" prefHeight="17.0" prefWidth="0.0" text=" " />
+<Button fx:id="SUBMIT1" layoutX="370.0" layoutY="453.0" mnemonicParsing="false" onAction="#go_back" prefHeight="25.0" prefWidth="58.0" style="-fx-background-color: #1F2665;" text="BACK" textFill="WHITE" />
+      <Label layoutX="396.0" layoutY="218.0" prefHeight="28.0" prefWidth="115.0" text="ENTER PASSWORD:" />
+      <TextField fx:id="passwordCr" layoutX="394.0" layoutY="246.0" onAction="#setpassword" promptText="PASSWORD" />
+      <Label fx:id="reenter" layoutX="394.0" layoutY="361.0" prefHeight="17.0" prefWidth="127.0" text=" " textFill="RED" />
+</children>
+        </AnchorPane>

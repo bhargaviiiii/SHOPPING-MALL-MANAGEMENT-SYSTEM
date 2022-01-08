@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="518.0" prefWidth="592.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shoppingmall.AdminSelect">
+
+
+
+
+
+<children>
+<Pane layoutY="-5.0" prefHeight="523.0" prefWidth="361.0" style="-fx-background-color: #2B3E62;">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@158223-photos-mall-shopping-store-free-clipart-hq.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="40.0" layoutY="323.0" prefHeight="52.0" prefWidth="306.0" text="SHOPPING MALL MANAGEMENT SYSTEM" textFill="WHITE">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>
+
+<Label layoutX="416.0" layoutY="49.0" prefHeight="47.0" prefWidth="115.0" text="ADMIN">
+    <font>
+        <Font size="32.0" />
+    </font>
+</Label>
+      <Button fx:id="updateProduct" layoutX="411.0" layoutY="185.0" mnemonicParsing="false" onAction="#setUpdateProduct" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #1F2665;" text="UPDATE PRODUCTS" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Button fx:id="updateEmployee" layoutX="411.0" layoutY="244.0" mnemonicParsing="false" onAction="#setUpdateEmployee" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #1F2665;" text="UPDATE EMPLOYEE" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="updateCredentials" layoutX="411.0" layoutY="300.0" mnemonicParsing="false" onAction="#setUpdateCredentials" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #1F2665;" text="UPDATE CREDENTIALS" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="updateCredentials1" layoutX="435.0" layoutY="385.0" mnemonicParsing="false" onAction="#go_back" prefHeight="19.0" prefWidth="78.0" style="-fx-background-color: #1F2665;" text="BACK" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+</children>
+        </AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shoppingmall.UpdateEmployee">
+
+    <children>
+        <Pane layoutX="-1.0" prefHeight="73.0" prefWidth="636.0" style="-fx-background-color: #AECEE4;">
+            <children>
+                <Pane prefHeight="44.0" prefWidth="636.0" style="-fx-background-color: #2B3E62;">
+                    <children>
+                        <Label layoutX="122.0" layoutY="7.0" prefHeight="31.0" prefWidth="416.0" text="SHOPPING MALL MANAGEMENT SYSTEM" textFill="WHITE">
+                            <font>
+                                <Font size="21.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Label layoutX="14.0" layoutY="51.0" prefHeight="17.0" prefWidth="345.0" text="SELECT &gt; LOGIN &gt; ADMIN &gt; UPDATE EMPLOYEE" />
+            </children>
+        </Pane>
+        <Pane layoutX="80.0" layoutY="91.0" prefHeight="235.0" prefWidth="473.0" style="-fx-background-color: WHITE;">
+            <children>
+                <Label layoutX="14.0" layoutY="34.0" prefHeight="17.0" prefWidth="116.0" text="AADHAR NUMBER:" />
+                <TextField layoutX="14.0" layoutY="66.0" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #D0D5E2;" />
+                <Label layoutX="14.0" layoutY="101.0" prefHeight="17.0" prefWidth="105.0" text="NAME: " />
+                <Button fx:id="ADD" layoutX="237.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: #1F2665;" text="ADD" textFill="WHITE" />
+                <Button layoutX="303.0" layoutY="187.0" mnemonicParsing="false" style="-fx-background-color: #1F2665;" text="DELETE" textFill="WHITE" />
+                <TextField layoutX="14.0" layoutY="127.0" style="-fx-background-color: #D0D5E2;" />
+                <Label layoutX="14.0" layoutY="161.0" prefHeight="17.0" prefWidth="105.0" text="CONTACT:" />
+                <TextField layoutX="14.0" layoutY="187.0" style="-fx-background-color: #D0D5E2;" />
+            <Button fx:id="DISPLAY_ALL" layoutX="368.0" layoutY="187.0" mnemonicParsing="false" style="-fx-background-color: #1F2665;" text="DISPLAY ALL" textFill="WHITE" />
+            <Label fx:id="checkcr" layoutX="14.0" layoutY="213.0" prefHeight="7.0" prefWidth="116.0" text=" " />
+            <Label layoutX="14.0" layoutY="213.0" text=" " />
+            <Label fx:id="details" layoutX="14.0" layoutY="213.0" text=" " />
+            </children>
+        </Pane>
+      <Button fx:id="BACK" layoutX="80.0" layoutY="345.0" mnemonicParsing="false" onAction="#go_back" style="-fx-background-color: #1F2665;" text="BACK" textFill="WHITE" />
+    </children>
+</AnchorPane>

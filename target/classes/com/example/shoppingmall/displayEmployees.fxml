@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.shoppingmall.DisplayEmployees">
+
+
+<children>
+<Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+<Pane layoutY="-2.0" prefHeight="55.0" prefWidth="725.0" style="-fx-background-color: #2B3E62;">
+    <children>
+        <Label layoutX="122.0" layoutY="13.0" text="SHOPPING MALL MANAGEMENT SYSTEM" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="25.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>
+</children>
+        </AnchorPane>
