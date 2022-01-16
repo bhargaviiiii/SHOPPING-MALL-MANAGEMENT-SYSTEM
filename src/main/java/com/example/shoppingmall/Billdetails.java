@@ -70,16 +70,6 @@ public class Billdetails extends BILL
         return prod_id.getText().toString();
     }
 
-    public void setbillno(ActionEvent event)
-    {
-
-    }
-
-    public void setcustomername(ActionEvent event) {
-    }
-
-    public void prod_id(ActionEvent event) {
-    }
 
 
 
